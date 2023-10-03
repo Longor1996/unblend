@@ -16,9 +16,24 @@ A small command-line program that explodes Blender files (`.blend`) into their v
   - See the resulting `DNA1.tsv` and `DNA1/*.txt` files.
 
 - Outputs an archive in either `*.zip` or `*.tar` format.
+  - Format is selected via the outputs file-extension.
   - Output can go to STDOUT via `-` (but only as `*.tar`).
 
 - Excluding data from the archive being written, via `-x <GLOB>`.
+
+## Installation
+
+- Have cargo & rust installed.
+- Run `cargo install unblend`.
+
+## Usage
+
+In general: `unblend <FILE> <OUT>`
+
+- `FILE` is the `blend`-files path.
+- `OUT` is the output path and extension for the archive.
+
+Detailed help is available via `unblend --help`.
 
 ## References
 

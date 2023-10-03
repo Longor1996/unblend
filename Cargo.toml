@@ -1,0 +1,11 @@
+[package]
+name = "unblend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.4.6", features = ["derive"] }
+zip_next = { version = "0.10", default-features = false, features = [] }
+align-address = "0.1.0"
+globset = "0.4"
+tar = "0.4"

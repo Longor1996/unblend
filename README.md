@@ -40,3 +40,5 @@ Detailed help is available via `unblend --help`.
 - <https://www.atmind.nl/blender/blender-sdna-256.html>
 - <https://fossies.org/linux/blender/doc/blender_file_format/mystery_of_the_blend.html>
 - <https://harlepengren.com/blender-dna-unraveling-the-internal-structure/>
+- <https://wiki.blender.org/wiki/Source/Architecture/RNA>
+- <https://projects.blender.org/blender/blender/src/branch/main/source/blender/blenkernel/BKE_main.h>
